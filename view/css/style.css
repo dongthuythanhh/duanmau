@@ -1,0 +1,549 @@
+.boxcenter{
+    width: 60%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%:
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header {
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    color: blue;
+    border-radius: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.2vw;
+}
+.menu{
+    background-color: black;
+    color: #CCC;
+    border-radius: 5px;
+}
+
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+
+}
+
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color: #EEE;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #EEE;
+    background-bottom-left-radius: 5px;
+    background-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+/* .boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+} */
+.img img{
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.menu ul{
+    padding: 0px 10px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a: hover{
+    color: white;
+    font-size: 0.8vw;
+}
+
+// box tai khoan
+
+.formtaikhoan{
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formtaikhoan input[type="text"]{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover{
+    background-color: #CCC;
+}
+.formtaikhoan li a {
+    color: teal;
+    text-decoration: none;
+}
+.formtaikhoan li a: hover{
+    color:#060;
+    text-decoration: underline;
+}
+
+//menu dọc
+
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li: hover{
+    background-color: #CCC;
+}
+.searbox input[type="text"]{  //226
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+
+//256
+
+.frmtitle{
+    background-color: #EEE;
+    border:1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.frmcontent{
+    padding: 20px 0px;
+}
+
+.frmdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.frmdsloai table th{
+    width: 10%;
+    padding: 20px;
+    background-color: #CCC;
+}
+/* .frmdsloai table th:ntn-child(2){
+    width: 30%;
+    background-color: #CCC;
+}
+.frmdsloai table th:ntn-child(3){
+    width: 40%;
+    background-color: #CCC;
+}
+.frmdsloai table th:ntn-child(4){
+    width: 20%;
+    background-color: #CCC;
+} */
+/* .frmdsloai table td{
+    padding: 10px 20px;
+    border:1px #CCC solid;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: #333;
+    min-height: 100px;
+}
+
+.header {
+    background: #54B435;
+    border-radius: 5px;
+    border: none;
+}
+
+.header h1 {
+    margin: 10px 20px;
+    color: #F0FF42;
+    font-size: 2vw;
+}
+
+.footer {
+    background: #5800FF;
+    border-radius: 5px;
+    font-size: 0.8vw;
+    border: none;
+    padding: 20px;
+    color: white;
+}
+
+.menu {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.box-left {
+    float: left;
+    width: 74%;
+
+}
+
+.box-right {
+    float: right;
+    width: 24%;
+}
+
+.box-title {
+    color: #333;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.box-content {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px #ccc solid;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.box-content2 {
+    border: 1px #ccc solid;
+    min-height: 200px;
+}
+
+.box-footer {
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.banner {
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 350px;
+}
+
+.box-shop {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.box-shop .img {
+    text-align: center;
+    min-height: 250px;
+}
+.menu ul {
+    padding: 15px 15px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ccc;
+    /* transition: .5s; */
+}
+
+.menu ul li a:hover {
+    color: #fff;
+    /* font-size: 1vw; */
+}
+
+/* box tài khoản */
+.form {
+    line-height: 150%;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.formcontent input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.form input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.form input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.form input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover
+  {
+    background-color: #ccc;
+    color: red;
+}
+
+.form li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.form li a:hover {
+    text-decoration: underline;
+    color: #0002A1;
+}
+
+/* menu dọc */
+.menu-doc ul {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    
+}
+
+.menu-doc ul li{
+    padding: 10px 20px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.menu-doc ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+.menu-doc ul li:hover{
+    background-color: #ccc;
+}
+
+.search-box input[type = "search"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    outline: none;
+    
+}
+
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ADMIN */
+
+.headeradmin{
+    background: #ccc;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    
+}
+
+.headeradmin h1{
+    font-size: 2vw;
+}
+
+.frmtitle{
+    background: #ccc;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    
+}
+
+.formcontent{
+    padding: 20px 0;
+}
+
+/* table */
+
+.frmloai table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+/* .frmloai table th:nth-child(1){
+    width: 10%;
+    background-color: #ccc;
+    padding: 20px 0;
+}
+
+.frmloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+
+.frmloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+
+.frmloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+
+.frmloai table td{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
